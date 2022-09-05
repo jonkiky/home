@@ -48,12 +48,13 @@
       margin: 0 auto;
     }
 
-    .bg-black{
-      background: #212121;
-    }
-
-    .w-62{
-        width: 240px;
+    .leading-10 span{
+        background: #212121;
+        line-height: 45px;
+        height: 45px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
     }
 
     .rounded-lg{
@@ -63,9 +64,23 @@
     .text-white{
         color: rgb(255 255 255);
     }
-    .px-3{
-      padding-left: 0.75rem; /* 12px */
-      padding-right: 0.75rem; /* 12px */
+    
+    a {
+      text-decoration: none;
+    }
+
+    .row{
+      margin: 10px auto;
+      --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: -10;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .intro li {
+      text-align: left;
+    font-size: 18px;
+    margin: 20px auto;
     }
 </style>
 <body>
@@ -73,19 +88,44 @@
   <div class="row">
     <div class="col">
            <img src="./img/artist.png" class="rounded-full border-8 max-with-48" />
-
+         </div>
+    </div>
+ <div class="row">
+    <div class="col">
       <h1 class="name">Jonkiky (yizhen) Chen</h1>
-      <h1 class="mx-auto subTitle">Software Engineer</h1>
-      <p class="leading-10 bg-black w-62 rounded-lg mx-auto ">
-        <a class="px-3 font-mono text-white " href="#"> Add Me To Your Contact</a>
-      </p>
-      <ul>
-      <li>A Coder. I do desgin, analyze, build and modify software to boost customer success. </li>
-      <li> We recently established a platform to help clinician to identification and prioritization of molecular targets expressed in childhood cancers. Part of efforts to help NCI’s Childhood Cancer Data Initiative (CCDI) to build a community centered around childhood cancer care and research data.</li>
+  </div>
+</div>
+<div class="row">
+    <div class="col">
+      <h1 class="mx-auto subTitle">Senior Software Engineer</h1>
+    </div>
+</div>
 
-      <li> We are working on open source project for professional schedule tool, which helps to avoid back and forth to communicate in a group to find the best time to fit in everyone's schedule.
+<div class="row">
+    <div class="col">
+      <div class="leading-10 rounded-lg mx-auto">
+       <span> <a class="px-3 font-mono text-white " href="#"> <i class="fa-solid fa-phone"></i> &nbsp; Contacts</a></span>
+      <span>
+        <a class="px-3 font-mono text-white " href="#"> <i class="fa-solid fa-envelope"></i> &nbsp; Email</a>
+     </span>
+     <span>
+     <a class="px-3 font-mono text-white " href="#"> <i class="fa-brands fa-weixin"></i> &nbsp; WeChat</a>
+    </span>
+     <span>
+     <a class="px-3 font-mono text-white " href="#"> <i class="fa-brands fa-linkedin"></i> &nbsp; linkedin</a>
+   </span>
+ </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col intro">
+      <ul>
+      <li>A Programmer. I do desgin, analyze, build and modify software to help customers succeed . </li>
+      <li><strong>MTP</strong> :  We recently established a platform to help clinician to identification and prioritization of molecular targets expressed in childhood cancers. Part of efforts to help NCI’s Childhood Cancer Data Initiative (CCDI) to build a community centered around childhood cancer care and research data. <a href="https://moleculartargets.ccdi.cancer.gov" target="_blank">moleculartargets.ccdi.cancer.gov</a></li>
+
+      <li><strong>BT</strong> :We are working on open source project for professional schedule tool, which helps to avoid back and forth to communicate in a group to find the best time to fit in everyone's schedule.<a href="https://jonkiky.github.io/BT/" target="_blank">BookTime</a>
       </li>
-      <li>Digital Business Card design</li>
     </ul>
    </div>
  </div>
