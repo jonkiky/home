@@ -1,29 +1,156 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Welcome To My Page</title>
+    <meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato&family=Oleo+Script&display=swap" rel="stylesheet">
+ 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/28fa00de6c.js" crossorigin="anonymous"></script>
 </head>
+<style type="text/css">
+    body {
+            margin: 20px !important;
+            background: #FEFDFA;
+            font-size: 18px;
+    }
+
+    .name {
+            font-size: 6.5vw;
+            margin: 0 auto;
+    }
+    
+
+    .subTitle {
+            font-family: 'Lato', sans-serif;
+            color:#212121;
+            font-size: 3vw;
+    }
+
+    .rounded-full {
+      border-radius: 9999px;
+    }
+
+    .border-8{
+      border-width: 8px;
+    }
+
+    .max-with-48 {
+      max-width: 480px;
+    }
+    .leading-10{
+      line-height: 40px;
+    }
+    .mx-auto{
+      margin: 0 auto;
+    }
+
+    .leading-10 span{
+        background: #212121;
+        line-height: 45px;
+        height: 45px;
+        padding: 10px;
+        margin: 5px;
+        border-radius: 20px;
+    }
+
+    .rounded-lg{
+      border-radius: 0.5rem; /* 8px */
+    }
+
+    .text-white{
+        color: rgb(255 255 255);
+    }
+    
+    a {
+      text-decoration: none;
+    }
+
+    .row{
+      margin: 10px auto;
+      --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: -10;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .intro li {
+      text-align: left;
+    font-size: 18px;
+    margin: 20px auto;
+    }
+
+    .container{
+      max-width: 95% !important;
+    }
+
+    .name_section{
+      margin: 40px auto; 
+    }
+    .pink {
+      color: #FA8072;
+    }
+
+    .contact{
+      margin: 40px auto;
+    }
+
+</style>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-    <br>
-    <a href="./Yizhen Chen.vcf"> ADD CONTACTS</a>
-    <br>
-     <a href="tel:0612345678"> ADD CONTACTS2</a>
+ <div class="container text-center">
+  <div class="row profile_img_section">
+    <div class="col">
+           <img src="./img/me.jpg" class="rounded-full border-8 max-with-48" />
+         </div>
+    </div>
+ <div class="row name_section">
+    <div class="col">
+      <h1 class="name">Hi, I'm Jonkiky Chen</h1>
+  </div>
+</div>
+<div class="row title_section">
+    <div class="col">
+      <span class="mx-auto ">Software Engineer  |  Golf Lover  |  CNC  <i class="fa-solid fa-location-dot pink"></i> Maryland,MD, USA</span>
+    </div>
+</div>
 
-     <br>
-     <a href="data:text/x-vard;base64,QkVHSU46VkNBUkQNClZFUlNJT046My4wDQpGTjpZaXpoZW4gQ2hlbiAxMjMNClVJRDowMjkyNzJkMi03YzNkLTQxYjctOGU4Yi02MTRhZDQzMGIwMjUNCkVNQUlMOkpvbmtpa3lAZ21haWwuY29tDQpURUw7VFlQRT1XT1JLOisxIDUxOCAyNTYgMzY1Ng0KT1JHOk5hdGlvbiBDYW5jZXIgSW5zdGl0dXRlICANClRJVExFOlNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlciAoQ29udHJhY3RvciApDQpVUkw6aHR0cHM6Ly9oaWhlbGxvLm1lDQpOT1RFOkNyZWF0ZWQgd2l0aCBqb25raWt5DQpOOkNoZW47WWl6aGVuOzs7Ow0KRU5EOlZDQVJE">ADD CONTACTS4</a>
+<div class="row contact">
+    <div class="col">
+      <div class="leading-10 rounded-lg mx-auto">
+       <span> <a class="px-3 font-mono text-white " href="#"> <i class="fa-solid fa-phone"></i> &nbsp; Contacts</a></span>
+      <span>
+        <a class="px-3 font-mono text-white " href="mailto:ychen315040@gmail.com"> <i class="fa-solid fa-envelope"></i> &nbsp; Email</a>
+     </span>
+     <span>
+     <a class="px-3 font-mono text-white " href="#"> <i class="fa-brands fa-weixin"></i> &nbsp; WeChat</a>
+    </span>
+     <span>
+     <a class="px-3 font-mono text-white " href="https://www.linkedin.com/in/jonkiky/"> <i class="fa-brands fa-linkedin"></i> &nbsp; linkedin</a>
+   </span>
+ </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col intro">
+      <ul>
+      <li>A Code lover. I do desgin, analyze, build and modify software to help customers succeed . </li>
 
+       <img src="./img/mtp.png" class="border-8 max-with-48" />
 
-     <a href="data:text/x-vcard;base64,QkVHSU46VkNBUkQNClZFUlNJT046My4wDQpGTjpZaXpoZW4gQ2hlbg0KVUlEOjAyOTI3MmQyLTdjM2QtNDFiNy04ZThiLTYxNGFkNDMwYjAyNQ0KRU1BSUw6Sm9ua2lreUBnbWFpbC5jb20NClRFTDtUWVBFPVdPUks6KzEgNTE4IDI1NiAzNjU2DQpPUkc6TmF0aW9uIENhbmNlciBJbnN0aXR1dGUgIA0KVElUTEU6U2VuaW9yIFNvZnR3YXJlIEVuZ2luZWVyIChDb250cmFjdG9yICkNClVSTDpodHRwczovL2hpaGVsbG8ubWUNCk5PVEU6Q3JlYXRlZCB3aXRoIGhpaGVsbG8ubWUNCk46Q2hlbjtZaXpoZW47Ozs7DQpFTkQ6VkNBUkQ=
-">Add contact 5</a>
+      <li><strong>MTP</strong> :  We recently established a platform to help clinician to identification and prioritization of molecular targets expressed in childhood cancers. Part of efforts to help NCI’s Childhood Cancer Data Initiative (CCDI) to build a community centered around childhood cancer care and research data. <a href="https://moleculartargets.ccdi.cancer.gov" target="_blank">moleculartargets.ccdi.cancer.gov</a></li>
 
-    <a href="data:text/x-vcard;base64,QkVHSU46VkNBUkQNClZFUlNJT046My4wDQpGTjpZaXpoZW4gQ2hlbiAxMjMNClVJRDowMjkyNzJkMi03YzNkLTQxYjctOGU4Yi02MTRhZDQzMGIwMjUNCkVNQUlMOkpvbmtpa3lAZ21haWwuY29tDQpURUw7VFlQRT1XT1JLOisxIDUxOCAyNTYgMzY1Ng0KT1JHOk5hdGlvbiBDYW5jZXIgSW5zdGl0dXRlICANClRJVExFOlNlbmlvciBTb2Z0d2FyZSBFbmdpbmVlciAoQ29udHJhY3RvciApDQpVUkw6aHR0cHM6Ly9oaWhlbGxvLm1lDQpOT1RFOkNyZWF0ZWQgd2l0aCBqb25raWt5DQpOOkNoZW47WWl6aGVuOzs7Ow0KRU5EOlZDQVJE
-">Add contact 6</a>
+      <img src="./img/bt.png" class="border-8 max-with-48" />
 
-
-  </h1>
+      <li><strong>BT</strong> :We are working on open source project for professional schedule tool, which helps to avoid back and forth to communicate in a group to find the best time to fit in everyone's schedule.<a href="https://jonkiky.github.io/BT/" target="_blank">BookTime</a>
+      </li>
+    </ul>
+   </div>
+ </div>
+</div>
 </body>
 </html>
