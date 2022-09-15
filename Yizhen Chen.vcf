@@ -1,9 +1,13 @@
 BEGIN:VCARD
 VERSION:3.0
-UID:1dc3b536-a033-415b-a7cb-84071c89d71c
-PRODID:-//Apple Inc.//iPhone OS 12.5.5//EN
-N:Chen;Yizhen;;;
-FN: Yizhen  Chen 
-EMAIL;type=INTERNET;type=HOME;type=pref:ychen315040@gmail.com
-TEL;type=HOME;type=VOICE;type=pref:(518) 256-3656
+FN;CHARSET=UTF-8:Yizhen Chen
+N;CHARSET=UTF-8:Chen;Yizhen;;;
+UID;CHARSET=UTF-8:8319d07d-385f-4091-9309-5fcda62234bc
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:ychen315040@gmail.com
+EMAIL;CHARSET=UTF-8;type=WORK,INTERNET:yizhen.chen@nih.gov
+PHOTO;TYPE=JPEG:https://raw.githubusercontent.com/jonkiky/home/main/img/me.jpg
+TEL;TYPE=WORK,VOICE:518-256-3656
+TITLE;CHARSET=UTF-8:Senior Software Developer
+ORG;CHARSET=UTF-8:National Cancer Institute
+REV:2022-09-15T13:09:18.201Z
 END:VCARD
