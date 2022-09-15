@@ -39,9 +39,8 @@
 
     .leading-10 span{
         background: #212121;
-        line-height: 45px;
-        height: 45px;
         padding: 10px;
+        font-size: 3.8vw;
         margin: 5px;
         border-radius: 20px;
     }
